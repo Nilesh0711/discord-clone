@@ -21,21 +21,21 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 ## Required .env
 
 
-clerk for authentication
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
+clerk for authentication<br>
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<br>
+CLERK_SECRET_KEY=<br>
 
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+```NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in```<br>
+```NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up```<br>
+```NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/```<br>
+```NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/```<br>
 
-database mysql url
-DATABASE_URL="mysql://<usernamme>:<password>@localhost:3306/<database>"
+database mysql url<br>
+```DATABASE_URL="mysql://<usernamme>:<password>@localhost:3306/<database>"```
 
-uploadthing for file storage
-UPLOADTHING_SECRET=
-UPLOADTHING_APP_ID=
+uploadthing for file storage<br>
+UPLOADTHING_SECRET=<br>
+UPLOADTHING_APP_ID=<br>
 
 ## Font
 
